@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flip-box {
+    height: 200px;
+    width: 200px;
+    perspective: 1000px;
+}
+
+.front {
+    background-color: red;
+    border: 5px solid blue;
+    border-radius: 10px;
+    background-image: url("media/battle\ .jpg")
+}
+
+.back {
+    background-color:yellow;
+    transform: rotateY(180deg);
+    border: 5px solid blue;
+    background-image: url(media/Hittites.mp4);
+    border-radius: 10px;
+}
+
+.flip-inner {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s steps(49);
+}
+
+.front, .back {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.flip-inner:hover {
+    transform: rotateY(180deg);
+}
+
+.flip-inner video {
+    height: 100%;
+    width: 100%;
+}

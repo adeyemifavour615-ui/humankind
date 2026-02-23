@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.first-box {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.first-box>img {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 150px;
+}
+
+
+.english{
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+
+.deutsch {
+    text-align: center;
+    position: absolute;
+    left: 32%;
+    top: 25%;
+}
+
+.francais {
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+}
+
+.italiano {
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+}
+
+.polski{
+    text-align: center;
+    position: absolute;
+    left: 34%;
+    top: 55%;
+}
+
+
+.e{
+    text-align: center;
+    position: absolute;
+    right: 35%;
+    top: 15%;
+}
+
+.d {
+    text-align: center;
+    position: absolute;
+    right: 32%;
+    top: 25%;
+}
+
+.c {
+    text-align: center;
+    position: absolute;
+    right: 30%;
+    top: 35%;
+}
+
+.b{
+    text-align: center;
+    position: absolute;
+    right: 30%;
+    top: 45%;
+}
+
+.a{
+    text-align: center;
+    position: absolute;
+    right: 34%;
+    top: 55%;
+}
+
+
+.wikipedia {
+    text-align:center ;
+    font-family: inherit;
+}
+
+.aa {
+    color: rgb(125, 125, 245);
+}
+
+.bb {
+    color: rgb(125, 125, 245);
+}
+
+.cc {
+    color: rgb(125, 125, 245);
+}
+
+.dd {
+    color: rgb(125, 125, 245);
+}
+
+.ee {
+    color: rgb(125, 125, 245);
+}
+
+.ff {
+    color: rgb(125, 125, 245);
+}
+
+.gg {
+    color: rgb(125, 125, 245);
+}
+
+.hh {
+    color: rgb(125, 125, 245);
+}
+
+.ii {
+    color: rgb(125, 125, 245);
+}
+
+.jj {
+    color: rgb(125, 125, 245);
+}
+
+.years {
+    background-color: rgb(247, 214, 84);
+    padding: 2px;
+    cursor: pointer;
+    
+}
+
+.years {
+    top: 40px;
+    position: absolute;
+    left: 43%;
+}
+
+.year {
+    background-color: rgb(247, 214, 84);
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.year {
+    top: 460px;
+    position: absolute;
+    left: 43%;
+}

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: aliceblue;
+}
+
+
+header {
+    background-color: antiquewhite;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+  
+    width: 100%;
+    align-items: center;
+
+}
+
+.head1 {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.head1 {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: right;
+}
+
+.head1 a {
+    text-decoration: none;
+    color: #425464;
+    margin-left: 50px;
+}
+
+
+.one {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
+
+.two {
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main .first {
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.grap .a-1 {
+    width: 60%;
+    font-weight: 900;
+    font-size: 300%;
+    margin-top: 1%;
+}
+
+.grap .b-2 {
+    width: 40%;
+    font-size: 100%;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #425464;
+}
+
+
+
+.three {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-weight: 900;
+    font-size: 120%;
+   
+}
+
+.book-icon {
+    /* display: block; */
+}
+
+.rotate {
+    transform-origin: center;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg);}
+}
+
+button>img{
+    height: 29px;
+}
+
+
+/* .rest button {
+    background-color: black;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+} */
+
+main {
+   
+}
+
+.four {
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.restw {
+     position: relative;
+}
+
+main{
+    padding: 10px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right{
+    width: 100%;
+}
+
+
+
+/* .four {
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+} */

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    grid-template-areas: 
+    "h h b b"
+    "h h b b"
+    ;
+} 
+
+.grid img {
+    width: 100%
+}
+
+.cell1 {
+    grid-row: h;
+
+    grid-column: h;
+}
+
+.cell2 {
+    grid-row: b;
+
+    grid-column: b;
+}

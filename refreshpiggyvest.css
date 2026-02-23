@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px 15px;
+    background-color: white;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.logo nav {
+    display: flex;
+    gap: 30px;
+    font-size: large;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.sign {
+    padding: 8px 15px;
+    font-size: large;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.create {
+    padding: 8px 15px;
+    font-size: large;
+    border: 1px solid #0c1825;
+    background-color: #0c1825;
+    color: white;
+    border-radius: 5px;
+}
+
+.ham {
+    width: 50px;
+    display: none;
+}
+main {
+    padding: 10px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-left h1 {
+    font-size: 45px;
+}
+.main-left p {
+    font-size: 20px;
+}
+.main-right {
+    width: 50%;
+}
+.main-right img {
+    width: 100%;
+}
+
+main .first {
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+main button.rest {
+    height: 20%;
+}
+
+.four {
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .ham {
+        display: block;
+    }
+    .buttons {
+        display: none;
+    }
+    .logo nav {
+        display: none;
+    }
+    main {
+        justify-content: center;
+        gap: 30px;
+    }
+    .main-left {
+
+        text-align: center;
+        width: 80%;
+    }
+    .main-right {
+        width: 80%;
+    }
+}

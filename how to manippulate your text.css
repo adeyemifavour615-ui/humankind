@@ -1,0 +1,17 @@
+.content{
+    font-size: 30px;
+}
+.container{
+    font-family: Gravitas one ;
+    font: 3em bolder italic;
+    text-align: justify;
+    text-align: end;
+    text-decoration: overline blue wavy;
+    line-height: 60px;
+    word-spacing: 30px;
+    letter-spacing:  10px;
+    text-indent: 40px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: lowercase;
+    -webkit-text-stroke: 2px white;
+}

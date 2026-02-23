@@ -1,0 +1,663 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.now{
+    margin-left: 800px;
+    background-color: #ced0d2;
+}
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #0d1422;
+    color: #ced0d2;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: fixed;
+    z-index: 200;
+    right: 0;
+    left: 0;
+   
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header button {
+    height: 35px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0d1422;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+main {
+    height: 550px;
+    width: 100%;
+    background-image: url(media/KeyArt_Oceania_3840x2160\ \(2\).jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.center-image {
+    width: 20%;
+}
+
+.center-button {
+    width: 12%;
+    height: 60px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    transition: all 5s linear;
+}
+
+.center-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.center-button:active {
+    background-color: black;
+    color: white;
+}
+
+main {
+    height: 550px;
+    width: 100%;
+    background-image: url(media/KeyArt_Oceania_3840x2160\ \(2\).jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.img {
+    width: 25%;
+    height: 20%;
+    align-items: center;
+    margin-left: 38%;
+    margin-top: -2%;
+    color: white;
+}
+
+hgroup {
+    margin-top: 5px;
+    height: 800px;
+    background-color: #0d1422;
+    margin-bottom: 0px;
+}
+
+.italy {
+    text-align: center;
+    position: absolute;
+    right: 65%;
+    top: 100%;
+}
+
+.scr {
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.dd {
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    color: white;
+}
+
+
+.ddd {
+    text-align: left;
+    position: absolute;
+    right: 5%;
+    top: 110%;
+    color: white;
+}
+
+.what {
+    text-align: left;
+    position: absolute;
+    font-weight: bolder;
+    right: 5%;
+    top: 180%;
+    color: white;
+}
+
+.prosperity {
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+}
+
+video {
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.eyes {
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    color: white;
+}
+
+.every {
+    text-align: left;
+    position: absolute;
+    right: 5%;
+    top: 110%;
+    color: white;
+}
+
+.white {
+    text-align: center;
+    position: absolute;
+    right: 35%;
+    top: 100%;
+}
+
+video {
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.eyes {
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    color: white;
+}
+
+.every {
+    text-align: left;
+    position: absolute;
+    right: 5%;
+    top: 110%;
+    color: white;
+}
+
+.black {
+    text-align: center;
+    position: absolute;
+    right: 20%;
+    top: 100%;
+}
+
+video {
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.eyes {
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    color: white;
+}
+
+.every {
+    text-align: left;
+    position: absolute;
+    right: 5%;
+    top: 110%;
+    color: white;
+}
+
+.www {
+    background-image: url(media/promo-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 100px 200px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image3 img {
+    height: 250px;
+    box-shadow: 5px 5px 10px;
+}
+
+.player {
+    font-weight: 900;
+    font-size: xx-large;
+    width: 400px;
+    color: rgb(34, 39, 56); 
+}
+    
+.buy {
+    font-weight: 500;
+    font-size: 17px;
+    width: 500px;
+    margin-top: 5px;
+    color: rgb(34, 39, 56); 
+}
+
+.buying {
+    font-weight: 500;
+    font-size: 17px;
+    width: 450px;
+    margin-top: 15px;
+    color: rgb(34, 39, 56); 
+}
+
+.digital {
+    font-weight: 500;
+    font-size: 17px;
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgb(34, 39, 56); 
+}
+
+.button {
+    width: 25%;
+    height: 60px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: rgb(19, 22, 34);
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.button:hover {
+    background-color:transparent;
+    color: white;
+}
+
+.promo {
+    background-image: url(media/second-promo-landscape\ \(2\).jpg);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 100px 200px;
+}
+
+.image4 img {
+    height: 270px;
+    margin-top: 3%;
+    margin-left: 230px;
+}
+
+.divone {
+    margin: 30px;
+}
+
+
+.headone {
+    font-weight: 900;
+    font-size: 35px;
+    width: 400px;
+    color: rgb(244, 243, 239);
+    margin-bottom: 30px; 
+}
+
+.headtwo {
+    font-weight: 700;
+    font-size: large;
+    width: 700px;
+    color: rgb(244, 243, 239);
+    margin-bottom: 25px; 
+}
+
+.headthree {
+    color:  rgb(244, 243, 239);
+    font-size: medium;
+    font-weight: 600;
+    width: 800px;
+}
+
+.paragraphone {
+    width: 350px;
+    margin-bottom: 20px;
+    line-gap-override: 800px;
+}
+
+.paragraphtwo {
+    width: 300px;
+}
+
+.buttontwo:hover {
+    background-color:transparent;
+    color: white;
+}
+
+.buttontwo {
+    width: 25%;
+    height: 60px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(19, 22, 34);;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.imagefive {
+    background-image: url(media/quote_bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 100px 200px;
+}
+
+.green {
+    background-color: #0d1422;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 100px 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    grid-template-areas: 
+    "h h b b"
+    "h h b b"
+    ;
+    margin-left: 11%;
+} 
+
+.grid img {
+    width: 100%;
+}
+
+.cell1 {
+    grid-row: h;
+
+    grid-column: h;
+}
+
+.cell2 {
+    grid-row: b;
+
+    grid-column: b;
+}
+
+.media {
+    text-align: center;
+    margin-left: 40px;
+    color: white;
+    margin-top: 0.5%;
+}
+
+.buttongeneral {
+    margin-left: 80%;
+    height: 30%;
+    margin-bottom: 2%;
+}
+
+.bone:hover {
+    background-color:white;
+    color: black;
+}
+
+.bone {
+    width: 35%;
+    height: 60%;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btwo:hover {
+    background-color: white;
+    color: black;
+}
+
+.btwo {
+    width: 35%;
+    height: 60%;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.one {
+    background-image: url(media/G2G-Background.jpg);
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    padding-left: 100px;
+}
+
+.two {
+    color: white;
+    padding-top: 139px;
+    padding-bottom: 138px;
+}
+
+.three {
+    object-fit: contain;
+}
+
+.img1 {
+    height: 70px;
+    width: 450px;
+}
+
+.onebutton {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.img2 {
+    height: 25px;
+    width: 25px;
+} 
+
+.one button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.background {
+    background-color: #02153b;
+  padding: 14px 20px;;
+}
+
+.medias img {
+    height: 50px;
+}
+
+.medias .logoimg {
+    height: 25px;
+}
+
+.medias {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: left;
+    padding: 20px 70px;
+    margin-bottom: 10px;
+}
+
+.hr {
+    width: 95%;
+    margin-left: 40px;
+}
+
+.a2024 {
+    width: 90%;
+    font-size: small;
+    margin-left: 40px;
+    color: white;
+    margin-top: 30px;
+}
+
+.herf {
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+    width: 80%;
+}
+
+.herf a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.scroll {
+    flex-direction: row;
+    display: flex;
+    gap: 2px;
+}
+
+.scroll a img {
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.message button {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid white;
+    gap: 10px;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.message .button:hover {
+    color: black;
+    background-color: white;
+}
+
+.message a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100px;
+    margin-top: 30px;
+    width: 5px;
+}
+
+.message {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.message a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.esrb {
+    background-color: white;
+    justify-content: left;
+    display: flex; 
+    width: 250px;
+    height: 120px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px 2px white;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.esrb img {
+    width: px;
+}
+
+.esrb p {
+    width: 200px;
+    font-size: small;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.goup a {
+    display: flex;
+    background-color: #0d1627;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    scroll-behavior: smooth;
+}

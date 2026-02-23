@@ -1,0 +1,48 @@
+h1 {
+    display: inline;
+}
+
+a{
+    display: block;
+}
+
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: black;
+    flex-wrap: wrap;
+    gap: 50px;
+    overflow: hidden;
+    
+}
+
+.flexbox {
+    height: 100px;
+    width: 100px;
+}
+
+.box1 {
+    background-color: rgb(118, 118, 249);
+    transform: translate(-100px -100px);
+}
+
+.box2 {
+    background-color: yellow;
+    transform: skew(100%);
+}
+
+.box3 {
+    background-color: rgb(225, 11, 133);
+    transform: rotate(90%);
+}
+
+.box4 {
+    background-color: orange;
+}
+
+.box5 {
+    background-color: red;
+}

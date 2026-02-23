@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #201313;
+
+}
+
+header {
+    background-color: #201313;
+    padding: 20px 35px;
+}
+
+.logo{
+    width: 200px;
+    margin-right: 150px;
+}
+
+header>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+}
+
+header>button {
+    color: white;
+    font-size: 18px;
+    background-color: #e03131;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 400px;
+}
+
+.hero{
+    padding: 50px 250px;
+    color: white;
+}
+
+.giant{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.write {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.write>a {
+    color: #ffe7a3;
+
+}
+
+.line1 {
+    margin-bottom: 20px;
+}
+
+.links>button {
+    height: 50px;
+    border-radius: 50px;
+    background-color: #201313;
+    border: 1px solid white;
+    color: white;
+    font-size: 10px;
+    margin-right: 15px;
+}
+
+.links>button:nth-child(1){
+    width: 120px;
+    background-color: #ffe7a3;
+    color: #201313;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links>button:nth-child(2){
+    width: 90px;
+}
+
+.links>button:nth-child(3){
+    width: 150px;
+}
+
+.links>button:nth-child(4){
+    width: 100px;
+}
+
+.links>a {
+    font-size: 26px;
+    color: white;
+    text-decoration: dotted underline;
+}
+
+.header2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: white;
+}
+
+.p1{
+   font-size: 30px; 
+}
+
+.p2{
+    font-family: unset;
+    color: #ffe7a3;
+    margin-top: 20px;
+}
+
+.abc{
+    color: white;
+}
+
+.P3{
+    margin-bottom: 20PX;
+}
+
+.p4{
+    margin-bottom: 50px;
+}
+
+.t1{
+    background-color: red;
+    height: 20px; width:500px;
+}
+
+.td1{
+    height: 50opx;
+   
+}
+
+.b1{
+
+    color: white;
+}
+
+.chad{
+    color:  #ffe7a3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 50px ;
+}
+
+.pytel{
+    margin-top: 20px;
+    color: #ffe7a3;
+}
+.and{
+    color: white;
+}
+
+.chadwill{
+    margin-top: 10px;
+}
+
+.january15{
+    color: white;
+}
+
+.podcast{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.where{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.WillLarry{
+    color:  #ffe7a3;
+}
+
+.P3{
+    margin-bottom: 15PX;
+}
+.rails{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+.building{
+    margin-bottom: 10px;
+}
+
+.whats{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.borges{
+    color:  #ffe7a3;
+}
+
+.a1{
+    color: white;
+}
+
+ .jan{
+    color: white;
+ }
+
+ .ai{
+    margin-top: 15px;
+    margin-bottom:50px;
+ }
+
+ .joel{
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+
+ .q{
+    color: #ffe7a3;
+ }
+
+ .s{
+    color: #ffe7a3;
+ }
+
+ .pod{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.we{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
