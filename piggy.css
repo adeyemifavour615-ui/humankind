@@ -851,12 +851,13 @@ section {
 }
 
 .review-n {
-    padding: 29px 8%;
+    padding: 29px 5%;
     clip-path: circle();
-    background-color: white;
     position: absolute;
-    color: #3d4f60;
+    color: #a3c93a;
+    background-color: blue;
     font-weight: lighter;
+    width: 9px;
 }
 
 
@@ -889,7 +890,7 @@ section {
     background-color: transparent;
     display: flex;
     align-items: center;
-    color: black;
+    color: black(230, 20, 20);
     padding: 10px 15px;
     border-radius: 12px;
     gap: 7px;
@@ -915,6 +916,10 @@ footer {
     background-image: linear-gradient(to bottom, #f2f7f8,  #f3f9f6, #ffffff, white,white, white,white,white, white);
     width: 100%;
     padding: 19px 8.95%;
+}
+
+div .yet {
+    margin-left: -15px;
 }
 
 .featured p {
